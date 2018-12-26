@@ -1,0 +1,134 @@
+.clearfix::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+header {
+    border: solid #cccccc 2px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.name {
+    background: #4aaaa5;
+    border: solid #cccccc 1px;
+    color: #ffffff;
+    font-size: 30px;
+    line-height: 45px;    
+}
+
+.navigation {
+    background: #ffffff;
+    text-align: right;
+    font-size: 20px;
+    line-height: 32px;
+    padding-top: 10px;
+    color: #666666;
+
+}
+
+.spacer {
+    background: #ffffff;
+}
+
+a {
+    color: #666666;
+}
+
+a:visited {
+    color: #666666;
+}
+
+.maincontent {
+    margin-left: 8.33%;
+    margin-right: 8.33%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    background: #ffffff;
+    border: solid 2px #cccccc;
+    color: #666666;
+}
+
+.heading {
+    color: #4aaaa5;
+}
+
+.footing {
+    background: #cccccc;;
+    border: solid grey 2px;
+    position: fixed;
+    bottom: 0px;
+    z-index: 2;
+}
+
+img {
+    float: left;
+    margin-right: 10px;
+}
+
+p {
+    text-indent: 50px;
+}
+
+body {
+    background-image: url("../images/gravel.png");
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.message {
+    width: 100%;
+    height: 200px;
+}
+
+.button {
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
+
+.rp2, .rp3 {
+    margin-top: 25px;
+}
+
+#img1 {
+    width: 250px;
+    height: 35px;
+    text-align: center;
+    padding-top: 5px;
+    padding-right: 30px;
+    background: #4aaaa5;
+    color: #ffffff;
+    position: absolute;
+    top: 200px;
+    z-index: 1
+
+
+}
+
+
+@media screen and (max-width: 640px) {
+    .navigation {
+        text-align: center;
+    }
+
+    .pic2, .pic4 {
+        margin-top: 25px;
+    }
+
+    #mediamargin {
+        margin-top: 25px;
+    }
+
+    .heading {
+        text-align: center;
+    }
+
+    .bio {
+        position: relative;
+        left: 30px;
+        margin-bottom: 25px;
+    }
+
+    .smblock {
+        position: relative;
+        left: 35px;
+    }
+}
