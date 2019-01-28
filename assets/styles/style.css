@@ -7,7 +7,9 @@
 header {
     border: solid #cccccc 2px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    height: 50px;
 }
+
 .name {
     background: #4aaaa5;
     border: solid #cccccc 1px;
