@@ -1,35 +1,14 @@
-.clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
+.nav-bar{
+    background-color: #382e2e;
+    color: #755625;
 }
 
-header {
-    border: solid #cccccc 2px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    height: 50px;
+.right{
+    color: #755625;
 }
 
-.name {
-    background: #4aaaa5;
-    border: solid #cccccc 1px;
-    color: #ffffff;
-    font-size: 30px;
-    line-height: 45px;    
-}
-
-.navigation {
-    background: #ffffff;
-    text-align: right;
-    font-size: 20px;
-    line-height: 32px;
-    padding-top: 10px;
-    color: #666666;
-
-}
-
-.spacer {
-    background: #ffffff;
+nav i {
+    background-color: #171433
 }
 
 a {
@@ -40,97 +19,108 @@ a:visited {
     color: #666666;
 }
 
-.maincontent {
-    margin-left: 8.33%;
-    margin-right: 8.33%;
-    margin-top: 25px;
-    margin-bottom: 25px;
-    background: #ffffff;
-    border: solid 2px #cccccc;
-    color: #666666;
+#main, #contact {
+    
+}
+.nav-list{
+    font-size: 20px!important;
 }
 
-.heading {
-    color: #4aaaa5;
+.carousel-item{
+    height: 600px!important;
+    width: 600px!important;
 }
 
-.footing {
-    background: #cccccc;;
-    border: solid grey 2px;
-    position: fixed;
-    bottom: 0px;
-    z-index: 2;
+.card-title{
+    font-size: 30px!important;
+    font-weight: bold!important;
+    text-shadow: 2px 2px black;
 }
 
-img {
-    float: left;
-    margin-right: 10px;
+.hello{
+    font-size: 18px;
 }
 
-p {
-    text-indent: 50px;
-}
-
-body {
-    background-image: url("../images/gravel.png");
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.message {
-    width: 100%;
+.parallax{
     height: 200px;
 }
 
-.button {
-    color: #ffffff;
-    background-color: #4aaaa5;
+.parallax-container{
+    height: 300px;
 }
 
-.rp2, .rp3 {
-    margin-top: 25px;
-}
-
-#img1 {
-    width: 250px;
-    height: 35px;
+.hello{
     text-align: center;
-    padding-top: 5px;
-    padding-right: 30px;
-    background: #4aaaa5;
-    color: #ffffff;
-    position: absolute;
-    top: 200px;
-    z-index: 1
-
-
 }
 
+.centered{
+    text-align: center;
+    margin: auto;
+}
 
-@media screen and (max-width: 640px) {
-    .navigation {
-        text-align: center;
-    }
+.carousel{
+    height:500px;
+}
 
-    .pic2, .pic4 {
-        margin-top: 25px;
-    }
+#me{
+    max-height:400px;
+    max-width:400px;
+    border-radius:20px;
+    float:left;
+    margin:40px;
+}
 
-    #mediamargin {
-        margin-top: 25px;
-    }
+.email{
+    text-align:center;
+}
 
-    .heading {
-        text-align: center;
-    }
-
-    .bio {
-        position: relative;
-        left: 30px;
-        margin-bottom: 25px;
-    }
-
-    .smblock {
-        position: relative;
-        left: 35px;
+.contacts{
+    text-decoration:none;
+}
+  
+@media screen and (max-width:1025px){
+    .carousel-item{
+        max-height:400px;
+        max-width:400px;
     }
 }
+
+@media screen and (max-width:700px){
+    .email{
+        font-size:20px;
+    }
+    .carousel{
+        height:400px;
+        padding:0px;
+    }
+    .carousel-item{
+    max-height:250px;
+    max-width:250px;
+    }
+}
+@media screen and (max-width:700px){
+    .email{
+        font-size:18px;
+    }
+}
+@media screen and (max-width:600px){
+    .fab{
+        margin:0px 0px 0px 220px;
+    }
+    .fas{
+        margin:0px 0px 0px 230px;
+    }
+}
+
+@media screen and (max-width:575px){
+    #me{
+        margin:50px 20px 20px 30px;
+    }
+}
+
+@media screen and (max-width:450px){
+    #me{
+        margin:50px 20px 20px 0px;
+    }
+}
+  

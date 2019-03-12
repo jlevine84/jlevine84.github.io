@@ -3,44 +3,170 @@
     <head>
         <title>Jeff Levine</title>
         <link rel="icon" type="image/png" href="favicon.ico">
-        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
+        crossorigin="anonymous">
         <link rel="stylesheet" href="./assets/styles/style.css">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="assets/javascript/index.js"></script>  
+        <meta name="viewport" content="width=device-width, initial-scale=1">        
     </head>
 
     <body>
-        <header class="container-fluid text-center">
-            <div class="row">
-                    <div class="col-sm-1 spacer"></div>
-                    <div class="col-sm-2 name">
-                        <h1>Jeff Levine</h1>
-                    </div>
-                    <div class="col-sm-8 navigation">
-                        <a href="index.html">About Me</a>  |
-                        <a href="portfolio.html">Portfolio</a>  |
-                        <a href="contact.html">Contact</a>
-                    </div>
-                    <div class="col-sm-1 spacer"></div>       
-            </div>
-        </header>
+        <nav>
+            <div class="nav-wrapper nav-bar">
         
-        <main class="jumbotron maincontent clearfix">
-                <h1 class="display-4 heading">About Me</h1>
-                <hr class="my-4">
-                <img src="https://placekitten.com/300/400/" class="img-fluid bio">
-                <p id="mediamargin">Content goes here. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla pulvinar massa vel risus interdum auctor. Nam luctus odio vitae nisl pellentesque tincidunt. Aenean volutpat sed mi sit amet accumsan. Nunc iaculis ullamcorper metus, ac congue urna egestas quis. Donec ultricies tristique hendrerit. Vivamus tortor ligula, malesuada nec ex sit amet, euismod pulvinar diam. Praesent lobortis eget mauris in bibendum. In hac habitasse platea dictumst. Sed ut hendrerit sapien. Mauris volutpat quis tellus lacinia porta. Ut tincidunt risus ac fermentum pretium. Curabitur lobortis porttitor leo non rutrum. Etiam ac odio leo. Vivamus quis aliquet massa. Nunc porta aliquet dolor, ac eleifend nisi tristique quis. Etiam vel magna rutrum, imperdiet velit nec, tristique massa.</p>
-                <p>Vestibulum mattis felis sit amet risus finibus tincidunt. Kiyomi is a noob. Integer consectetur nisi eget ultrices sollicitudin. Fusce dolor est, venenatis sit amet lectus non, bibendum ultrices arcu. Proin placerat bibendum blandit. Sed aliquet eros et lectus accumsan accumsan. Quisque luctus, ex ut finibus pulvinar, dui lacus eleifend lorem, sit amet lacinia massa dolor nec magna. Nam non sagittis metus, ac porta justo. Quisque a erat dignissim, blandit erat non, condimentum elit. Sed efficitur orci felis, sit amet aliquam elit sollicitudin eget. Curabitur ornare facilisis velit, at gravida diam molestie non. Aliquam imperdiet, magna et vehicula vestibulum, turpis ligula iaculis magna, a auctor augue urna et urna.</p>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <a class="waves-effect waves-light btn-floating btn-large resume">
+                    <i class="fas fa-file-download" title="Download Resume"></i></i>Resume</a>
+                <a class="waves-effect waves-light btn-floating btn-large social linkedin" href="#"
+                    target="_blank">
+                    <i class="fab fa-linkedin" title="LinkedIn Profile"></i>Linked In</a>
+                <a class="waves-effect waves-light btn-floating btn-large social github" href="#"
+                    target="_blank">
+                    <i class="fab fa-github" title="Github Profile"></i>Github</a>
+                </ul>
+            </div>
+        </nav>
+        
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/images/desertnight.jpeg"></div>
+        </div>
+        
+        <!--About Me and Portfolio-->
+        <div class="section" id="main">
+            <div class="row container centered">
+                <h1>Jeff Levine</h1>
+                <p class="hello">
+                &#8226; Full-stack Web Developer
+                &#8226; UNC Coding Bootcamp 2018
+                &#8226; 10+ years in Consumer Banking Industry
+                </p>
                 
-        </main>
+                <p class="hello">
+                HTML | CSS Frameworks | JavaScript | JQuery | Node.js | MySQL | Firebase | Express 
+                </p>
 
-        <footer class="container-fluid footing text-center">
+                <br>
+
+                <h3>Portfolio</h3>
+                <!--carousel-->
+                <div class="carousel">
+        
+                    <div class="carousel-item" href="#" target="_blank">
+                        <div class="card">
+                            <div class="card-image port-card">
+                                <img src="./assets/images/hangman.png">
+                                <span class="card-title">Word Guess</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-action">
+                                    <a href="https://jlevine84.github.io/Word-Guess-Game/">View App</a>
+                                    <a href="https://github.com/jlevine84/Word-Guess-Game">View Code</a>
+                                </div>
+                                <p>A Web-Based Hangman-Style Arcade Word Guess Game!</p>
+                            </div>
+                        </div> <!--End of Card-->
+                    </div> <!--End Carousel Item-->
+
+                    <div class="carousel-item" href="#" target="_blank">
+                        <div class="card">
+                            <div class="card-image port-card">
+                                <img src="./assets/images/fighter.png">
+                                <span class="card-title">Animal Fight</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-action">
+                                    <a href="https://jlevine84.github.io/unit-4-game/">View App</a>
+                                    <a href="https://github.com/jlevine84/unit-4-game">View Code</a>
+                                </div>
+                                <p>A fight puzzle game using dynamically created html elements!</p>
+                            </div>
+                        </div> <!--End of Card-->
+                    </div> <!--End Carousel Item-->
+
+                    <div class="carousel-item" href="#" target="_blank">
+                        <div class="card">
+                            <div class="card-image port-card">
+                                <img src="./assets/images/Trivia.png">
+                                <span class="card-title">Trivia!</span>
+                            </div>
+                            <div class="card-content">
+                                <div class="card-action">
+                                    <a href="https://jlevine84.github.io/TriviaGame/">View App</a>
+                                    <a href="https://github.com/jlevine84/TriviaGame">View Code</a>
+                                </div>
+                                <p>Description of Item goes here</p>
+                            </div>
+                        </div> <!--End of Card-->
+                    </div> <!--End Carousel Item-->
+        
+        
+                </div> <!--End of Carousel-->
+            </div>
+        </div><!--End of Section-->
+       
+        
+        <div class="parallax-container">
+            <div class="parallax"><img src="assets/images/desertnight.jpeg"></div>
+        </div>
+
+        <div class="section" id="contact">
             <div class="row">
-                <div class="col">
-                    Copyright Info
+                <div class="col s2"></div>
+                <div class="col s8">
+                    <br>
+                    <br>
+                    <h4 class="centered">Connect: </h4>
                 </div>
-            </div>    
-        </footer>
+            </div>
+            <div class="row">
+                <div class="col s2"></div>
+                <div class="col s8 centered"><h5>Email: JLevine_84@yahoo.com</h5></div>
+            </div>
+            <div class="row">
+                <div class="col s3"></div>
+                    <div class="col s12 m2 l2 xl2 contact-info">
+                        <p class="email">
+                            <h5 class="email">Linked In</h5>
+                            <div class="col l3 offset-l3">
+                                <a class="contacts" href="#" target="_blank">
+                                    <span style="color:black">
+                                        <i class="fab fa-linkedin fa-7x "></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </p>
+                    </div>
+
+                    <div class="col s12 m2 l2 xl2 contact-info">
+                        <p><h5 class="email">Github</h5>
+                            <div class="col l3 offset-l3">
+                                <a class="contacts" href="#" target="_blank">
+                                    <span style="color:black">
+                                        <i class="fab fa-github fa-7x "></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </p>
+                    </div>
+
+                    <div class="col s12 m2 l2 xl2 contact-info">
+                        <p><h5 class="email">Resume</h5>
+                            <div class="col l3 offset-l3">
+                                <a class="contacts" href="#" download="" target="_blank">
+                                    <span style="color:black">
+                                        <i class="fas fa-file-download fa-7x "></i>
+                                    </span>
+                                </a>
+                            </div>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <script src="./assets/javascript/index.js"></script>  
     </body>
 </html>
