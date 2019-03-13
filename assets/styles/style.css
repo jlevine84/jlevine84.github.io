@@ -18,10 +18,25 @@ a {
 a:visited {
     color: #666666;
 }
+.divider {
+    background-color: #382e2e;
+    width: 90%;
+    position: relative;
+    left: 5%
+}
+#main-container {
+    background-color: #382e2e
+}
 
 #main, #contact {
-    
+    background-color: #d1d1d1;
+
 }
+
+.container {
+    box-shadow: 2px 2px 5px black;
+}
+
 .nav-list{
     font-size: 20px!important;
 }
@@ -29,6 +44,10 @@ a:visited {
 .carousel-item{
     height: 600px!important;
     width: 600px!important;
+}
+
+.card {
+    box-shadow: 2px 2px 5px black;
 }
 
 .card-title{
