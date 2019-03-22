@@ -106,8 +106,13 @@ h1, h3 {
     text-align:center;
 }
 
-.contacts{
-    text-decoration:none;
+.contact h4,h5,p {
+    text-shadow: 1px 1px 1px rgb(180, 180, 180)
+}
+
+.mobile {
+    height: 100%;
+    width: 100%;
 }
   
 @media screen and (max-width:1025px){
@@ -129,30 +134,42 @@ h1, h3 {
     max-height:250px;
     max-width:250px;
     }
-}
-@media screen and (max-width:700px){
+
     .email{
         font-size:18px;
     }
 }
+
 @media screen and (max-width:600px){
-    .fab{
-        margin:0px 0px 0px 220px;
+    .social {
+        background: #171433;
     }
-    .fas{
-        margin:0px 0px 0px 230px;
-    }
-}
 
-@media screen and (max-width:575px){
-    #me{
-        margin:50px 20px 20px 30px;
+    nav i {
+        color: white;
     }
-}
 
-@media screen and (max-width:450px){
-    #me{
-        margin:50px 20px 20px 0px;
+    .hello {
+        padding-left: 10px;
+        padding-right: 10px;
     }
+
+    .carousel {
+        height: 400px;
+    }
+    
+    .mobile {
+        height: 100%;
+        position: relative;
+        bottom: 50px;
+    }
+
+    .card-action {
+        width: 250px;
+    }
+
+    .contact-media a{
+            position: relative;
+            left: 145px;
+        } 
 }
-  
