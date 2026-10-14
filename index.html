@@ -14,363 +14,189 @@
     </head>
 
     <body>
-        <nav>
-            <div class="nav-wrapper nav-bar desktop">
-                <ul id="nav-mobile" class="center">
-                <a class="waves-effect waves-light btn-floating btn-large social" href="JALResume.pdf">
-                    <i class="fas fa-file-download" title="Download Resume"></i>Resume</a>
-                <a class="waves-effect waves-light btn-floating btn-large social" href="https://www.linkedin.com/in/jeff-levine-55a557175/"
-                    target="_blank">
-                    <i class="fab fa-linkedin" title="LinkedIn Profile"></i>LinkedIn</a>
-                <a class="waves-effect waves-light btn-floating btn-large social" href="https://github.com/jlevine84/"
-                    target="_blank">
-                    <i class="fab fa-github" title="Github Profile"></i>Github</a>
-                </ul>
+        <!-- Header Navigation -->
+        <nav class="custom-nav">
+            <span class="nav-brand">Jeff Levine</span>
+            <div class="nav-links">
+                <a class="nav-link-btn" href="JALResume.pdf" target="_blank">
+                    <i class="fas fa-file-download"></i> Resume
+                </a>
+                <a class="nav-link-btn" href="https://www.linkedin.com/in/jeff-levine-55a557175/" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a class="nav-link-btn" href="https://github.com/jlevine84/" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
             </div>
         </nav>
-        
-        <div class="parallax-container">
-            <div class="parallax"><img src="assets/images/desertnight.jpeg"></div>
-        </div>
-        
-        <!--About Me and Portfolio-->
-        <div class="section" id="main-container">
-            <div class="row container centered" id="main">
-                <br>
-                <h1 class="animated fadeInLeftBig">Jeff Levine</h1>
-                <p class="hello animated fadeInRightBig">
-                &#8226; Full-stack Web Developer
-                &#8226; UNC Coding Bootcamp 2018
-                &#8226; 10+ years in Consumer Banking Industry
-                </p>
-                
-                <p class="hello animated fadeInRightBig">
-                HTML | CSS Frameworks | JavaScript | JQuery | Node.JS | SQL DBs | NoSQL DBs | Firebase | Express | Angular | React | Vue 
-                </p>
-                <div class="divider"></div>
-                <h3>Portfolio</h3>
-                <div class="divider"></div>
-                <br>
-                <!--carousel-->
-                <div class="carousel">
-                    <div class="mobile">
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/dadirri2.png">
-                                    <span class="card-title">Dadirri v1.1</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://jal-dadirri.herokuapp.com/">View App</a>
-                                        <a href="https://github.com/jlevine84/Dadirri2">View Code</a>
-                                    </div>
-                                    <p>A full-stack group Application. Created to help keep track of Mental Wellness! (Self Styled)</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/dadirri1.png">
-                                    <span class="card-title">Dadirri v1.0</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://dadirri.herokuapp.com/">View App</a>
-                                        <a href="https://github.com/jlevine84/Dadirri">View Code</a>
-                                    </div>
-                                    <p>A full-stack group Application. Created to help keep track of Mental Wellness!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-                        <div class="carousel-item" href="#" target="_blank">
-                                <div class="card">
-                                    <div class="card-image port-card">
-                                        <img src="./assets/images/eatme.png">
-                                        <span class="card-title">Eat Me</span>
-                                    </div>
-                                    <div class="card-content">
-                                        <div class="card-action">
-                                            <a href="https://eat-me-p2.herokuapp.com/">View App</a>
-                                            <a href="https://github.com/jlevine84/Project2">View Code</a>
-                                        </div>
-                                        <p>A Group Project that Translates News Articles with Login and Database Features!</p>
-                                    </div>
-                                </div> <!--End of Card-->
-                            </div> <!--End Carousel Item-->
 
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/project1.png">
-                                    <span class="card-title">News Translator</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://jlevine84.github.io/Project1/">View App</a>
-                                        <a href="https://github.com/jlevine84/Project1">View Code</a>
-                                    </div>
-                                    <p>A Group Project that Translates News Articles with Login and Database Features!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
+        <!-- Hero Section -->
+        <header class="hero-section">
+            <h1 class="hero-title">Jeff Levine</h1>
+            <p class="hero-subtitle">Full-Stack Software Engineer &bull; UNC Bootcamp &bull; SNHU CS Alum</p>
+            
+            <div class="tech-badges">
+                <span class="badge">TypeScript</span>
+                <span class="badge">Angular</span>
+                <span class="badge">Node.js</span>
+                <span class="badge">Express</span>
+                <span class="badge">MongoDB</span>
+                <span class="badge">React</span>
+                <span class="badge">REST APIs</span>
+                <span class="badge">JWT Auth</span>
+                <span class="badge">Java</span>
+                <span class="badge">C++</span>
+            </div>
+        </header>
 
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/Trivia.png">
-                                    <span class="card-title">Trivia!</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://jlevine84.github.io/TriviaGame/">View App</a>
-                                        <a href="https://github.com/jlevine84/TriviaGame">View Code</a>
-                                    </div>
-                                    <p>An Arcade Style Trivia Game!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/hangman.png">
-                                    <span class="card-title">Word Guess</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://jlevine84.github.io/Word-Guess-Game/">View App</a>
-                                        <a href="https://github.com/jlevine84/Word-Guess-Game">View Code</a>
-                                    </div>
-                                    <p>A Web-Based Hangman-Style Arcade Word Guess Game!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/fighter.png">
-                                    <span class="card-title">Animal Fight</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://jlevine84.github.io/unit-4-game/">View App</a>
-                                        <a href="https://github.com/jlevine84/unit-4-game">View Code</a>
-                                    </div>
-                                    <p>A fight puzzle game using dynamically created html elements!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/gify.png">
-                                    <span class="card-title">Gif Finder</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://jlevine84.github.io/GifApi/">View App</a>
-                                        <a href="https://github.com/jlevine84/GifApi">View Code</a>
-                                    </div>
-                                    <p>A web application using AJAX calls to view Gifs!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/train.png">
-                                    <span class="card-title">Train Scheduler</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://jlevine84.github.io/TrainTime/">View App</a>
-                                        <a href="https://github.com/jlevine84/TrainTime">View Code</a>
-                                    </div>
-                                    <p>A web application using a Firebase Database to get real time Data!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/node.png">
-                                    <span class="card-title">LIRI Bot</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://github.com/jlevine84/LIRI">View Code</a>
-                                    </div>
-                                    <p>A Node CLI App that allows user input and API Searches!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
+        <!-- Featured Capstone Project -->
+        <section class="capstone-container">
+            <div class="capstone-card">
+                <img src="./assets/images/travlr-admin.png" alt="Travlr Admin Capstone" class="capstone-img">
+                <div class="capstone-body">
+                    <div>
+                        <span class="capstone-tag">Featured Capstone</span>
+                        <h2 class="capstone-title">Travlr Getaways Administrative Portal</h2>
+                        <p class="capstone-desc">
+                            An enterprise administrative portal refactored with modern reactive architecture. Includes real-time audit logs, server-side data aggregation pipelines, dynamic UI state handling, and secure RBAC access controls.
+                        </p>
                         
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/node.png">
-                                    <span class="card-title">Bamazon</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://github.com/jlevine84/Bamazon">View Code</a>
-                                    </div>
-                                    <p>A Node CLI App that uses a MySQL Database</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/lfg.png">
-                                    <span class="card-title">LFG Finder</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://lfgfinder.herokuapp.com/">View App</a>
-                                        <a href="https://github.com/jlevine84/FriendFinder">View Code</a>
-                                    </div>
-                                    <p>A Full-Stack Application that lets you find Adventuring Partners!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/orderup.png">
-                                    <span class="card-title">Order Up!</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://order-up-jal.herokuapp.com/">View App</a>
-                                        <a href="https://github.com/jlevine84/Order-Up">View Code</a>
-                                    </div>
-                                    <p>A Full-Stack Application that utilizes a mySQL database for keeping track of restaurant orders!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/mongoscrape.png">
-                                    <span class="card-title">News Scraper</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://jal-mongo-scraper.herokuapp.com/">View App</a>
-                                        <a href="https://github.com/jlevine84/news-scraper">View Code</a>
-                                    </div>
-                                    <p>A Full-Stack Application that utilizes a Mongoose database for scraping news articles from the New York Times website!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/booksearch.png">
-                                    <span class="card-title">Book Search</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://jal-book-search.herokuapp.com/">View App</a>
-                                        <a href="https://github.com/jlevine84/Book-Search">View Code</a>
-                                    </div>
-                                    <p>A Full-Stack React Application for searching and saving books from Google!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
-                        <div class="carousel-item" href="#" target="_blank">
-                            <div class="card">
-                                <div class="card-image port-card">
-                                    <img src="./assets/images/spclicky.png">
-                                    <span class="card-title">South Park Clicky</span>
-                                </div>
-                                <div class="card-content">
-                                    <div class="card-action">
-                                        <a href="https://sp-clickygame.herokuapp.com/">View App</a>
-                                        <a href="https://github.com/jlevine84/Clicky-Game">View Code</a>
-                                    </div>
-                                    <p>A React Game utilizing dynamic state. Play it! Test your memory and have fun!</p>
-                                </div>
-                            </div> <!--End of Card-->
-                        </div> <!--End Carousel Item-->
+                        <div class="capstone-highlights">
+                            <div class="highlight-box">
+                                <h5>Frontend</h5>
+                                <p>Angular Signals & Reactive Forms</p>
+                            </div>
+                            <div class="highlight-box">
+                                <h5>Backend</h5>
+                                <p>MongoDB Pipeline & Express Middleware</p>
+                            </div>
+                            <div class="highlight-box">
+                                <h5>Security</h5>
+                                <p>JWT Authentication & Audit Logs</p>
+                            </div>
+                        </div>
                     </div>
-                </div> <!--End of Carousel-->
-            </div>
-        </div><!--End of Section-->
-       
-        
-        <div class="parallax-container">
-            <div class="parallax"><img src="assets/images/desertnight.jpeg"></div>
-        </div>
 
-        <div class="section" id="contact">
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8">
-                    <br>
-                    <br>
-                    <h4 class="centered"><strong>Connect: </strong></h4>
+                    <div class="project-links">
+                        <a href="https://github.com/jlevine84/cs499-eportfolio" target="_blank" class="btn-primary">
+                            <i class="fab fa-github"></i> View Repository
+                        </a>
+                    </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col s2"></div>
-                <div class="col s8 centered"><h5>Email: JLevine_84@yahoo.com</h5></div>
-            </div>
-            <div class="row">
-                <div class="col s3"></div>
-                    <div class="col s12 m2 l2 xl2 contact-info">
-                        <p><h5 class="email"><strong>Resume</strong></h5>
-                            <div class="col l3 offset-l3 contact-media">
-                                <a class="contacts" href="JALResume.pdf" target="_blank">
-                                    <span style="color:black">
-                                        <i class="fas fa-file-download fa-7x "></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </p>
-                    </div>
+        </section>
 
-                    <div class="col s12 m2 l2 xl2 contact-info">
-                        <p class="email">
-                            <h5 class="email"><strong>LinkedIn</strong></h5>
-                            <div class="col l3 offset-l3 contact-media">
-                                <a class="contacts" href="https://www.linkedin.com/in/jeff-levine-55a557175/" target="_blank">
-                                    <span style="color:black">
-                                        <i class="fab fa-linkedin fa-7x "></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </p>
+        <!-- Portfolio Projects Grid -->
+        <section class="portfolio-section">
+            <h2 class="section-title">Projects & Applications</h2>
+            
+            <div class="grid-container">
+                <!-- Dadirri 1.1 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="./assets/images/dadirri2.png" alt="Dadirri v1.1">
                     </div>
-
-                    <div class="col s12 m2 l2 xl2 contact-info">
-                        <p><h5 class="email"><strong>Github</strong></h5>
-                            <div class="col l3 offset-l3 contact-media">
-                                <a class="contacts" href="https://github.com/jlevine84/" target="_blank">
-                                    <span style="color:black">
-                                        <i class="fab fa-github fa-7x "></i>
-                                    </span>
-                                </a>
-                            </div>
-                        </p>
+                    <div class="project-content">
+                        <h3 class="project-card-title">Dadirri v1.1</h3>
+                        <p class="project-card-desc">A full-stack tracking application built to support mental health and daily wellness routines.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/jlevine84/Dadirri2" target="_blank" class="btn-secondary">Code</a>
+                        </div>
                     </div>
+                </div>
 
-                    
+                <!-- Dadirri 1.0 -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="./assets/images/dadirri1.png" alt="Dadirri v1.0">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-card-title">Dadirri v1.0</h3>
+                        <p class="project-card-desc">Collaborative full-stack application designed for tracking personal health and wellness metrics.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/jlevine84/Dadirri" target="_blank" class="btn-secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Eat Me -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="./assets/images/eatme.png" alt="Eat Me">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-card-title">Eat Me</h3>
+                        <p class="project-card-desc">Group project translating news articles on the fly, integrated with user auth and database storage.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/jlevine84/Project2" target="_blank" class="btn-secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- News Translator -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="./assets/images/project1.png" alt="News Translator">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-card-title">News Translator</h3>
+                        <p class="project-card-desc">Web application designed for translating international news content across languages.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/jlevine84/Project1" target="_blank" class="btn-secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Book Search -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="./assets/images/booksearch.png" alt="Book Search">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-card-title">React Book Search</h3>
+                        <p class="project-card-desc">Full-stack React application querying Google Books API with database persistence.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/jlevine84/Book-Search" target="_blank" class="btn-secondary">Code</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- South Park Clicky -->
+                <div class="project-card">
+                    <div class="project-img-wrapper">
+                        <img src="./assets/images/spclicky.png" alt="South Park Clicky Game">
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-card-title">Memory Clicky Game</h3>
+                        <p class="project-card-desc">React memory game testing character clicks with dynamic component state handling.</p>
+                        <div class="project-links">
+                            <a href="https://github.com/jlevine84/Clicky-Game" target="_blank" class="btn-secondary">Code</a>
+                        </div>
+                    </div>
                 </div>
             </div>
-        </div>
+        </section>
 
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <script src="./assets/javascript/index.js"></script>  
+        <!-- Contact & Footer -->
+        <footer class="contact-section">
+            <h2>Get In Touch</h2>
+            <p style="color: var(--text-muted); margin-top: 0.5rem;">Email: JLevine_84@yahoo.com</p>
+
+            <div class="social-grid">
+                <a href="JALResume.pdf" target="_blank" class="social-card">
+                    <i class="fas fa-file-download"></i>
+                    <span>Resume</span>
+                </a>
+                <a href="https://www.linkedin.com/in/jeff-levine-55a557175/" target="_blank" class="social-card">
+                    <i class="fab fa-linkedin"></i>
+                    <span>LinkedIn</span>
+                </a>
+                <a href="https://github.com/jlevine84/" target="_blank" class="social-card">
+                    <i class="fab fa-github"></i>
+                    <span>GitHub</span>
+                </a>
+            </div>
+        </footer>
     </body>
+
 </html>
