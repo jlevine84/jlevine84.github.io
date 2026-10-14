@@ -1,13 +1,12 @@
 <!doctype html>
-<html>
+<html lang="en">
     <head>
-        <title>Jeff Levine</title>
+        <title>Jeff Levine | CS499 Capstone Portfolio</title>
         <link rel="icon" type="image/png" href="favicon.ico">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
         <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr"
-        crossorigin="anonymous">
-        <link href="https://fonts.googleapis.com/css?family=Merriweather|Poppins" rel="stylesheet">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+        <link href="https://fonts.googleapis.com/css?family=Merriweather|Poppins:300,400,500,600,700" rel="stylesheet">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
         <link rel="stylesheet" href="./assets/styles/style.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">        
@@ -49,13 +48,67 @@
             </div>
         </header>
 
-        <!-- Featured Capstone Project -->
+        <!-- Professional Self-Assessment Container -->
+        <section class="capstone-container" style="margin-bottom: 2.5rem;">
+            <div class="capstone-card" style="flex-direction: column; padding: 2rem; border: 1px solid rgba(255, 255, 255, 0.15);">
+                <div style="width: 100%; margin-top: 25%;">
+                    <span class="capstone-tag" style="background-color: #388e3c; color: white;"></span>
+                    <h3 class="capstone-title" style="margin-top: 0.5rem; margin-bottom: 1rem; font-size: 1.6rem;">About Me
+                    </h3>
+                    
+                    <div style="color: var(--text-muted, #ccc); font-size: 1rem; line-height: 1.7;">
+                        <p style="margin-bottom: 1rem;">
+                            Throughout my time in the Computer Science program at SNHU and my professional work as a full-stack developer, my primary focus has been bridging client-facing user experiences with robust, scalable backend architecture. My journey in web development—from completing the UNC Coding Bootcamp to mastering full-stack engineering—has built a strong foundation in modern frontend state management, REST API design, database security, and algorithmic performance.
+                        </p>
+                        <p style="margin: 0;">
+                            What drives me as a software developer is continuous learning and solving complex problems. Whether refactoring legacy interfaces into modern Angular Signals, optimizing MongoDB query pipelines for enterprise pagination, or integrating cutting-edge LLMs with low-latency embedded systems, I approach software engineering with a performance-first and security-conscious mindset. Moving forward, my goal is to continue leveraging modern full-stack web architectures and emerging technologies to build intuitive, high-impact applications that deliver real value.
+                        </p>
+                    </div>
+                </div>
+                <div class="capstone-body">
+                    <div style="width: 100%;">
+                        <span class="capstone-tag">CS499 Capstone Project Narrative</span>
+                        <h2 class="capstone-title" style="margin-top: 0.5rem; margin-bottom: 1rem;">
+                            Travlr Getaways Enterprise Administrative Portal
+                        </h2>
+                        
+                        <p style="color: var(--text-muted, #ccc); font-size: 1.05rem; line-height: 1.7; margin-bottom: 1rem;">
+                            Originally developed during coursework in full-stack web development (CS-465), 
+                            <strong>Travlr Getaways</strong> served as a baseline single-page application designed for managing travel inventory and user accounts. For my CS499 Computer Science Capstone, I systematically refactored and enhanced the platform across three core computing areas:
+                        </p>
+
+                        <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem; margin-top: 1.5rem; margin-bottom: 1.5rem;">
+                            <div style="background: rgba(255,255,255,0.05); padding: 1.2rem; border-radius: 8px; border-left: 4px solid #0088cc;">
+                                <h5 style="margin: 0 0 0.5rem 0; font-weight: 600; color: #fff; font-size: 1.1rem;">1. Software Engineering & Design</h5>
+                                <p style="margin: 0; color: #aaa; font-size: 0.95rem; line-height: 1.5;">
+                                    Refactored legacy UI components into Angular Reactive Forms & Signals. Introduced a side-by-side master-detail dashboard with dynamic form state toggling.
+                                </p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.05); padding: 1.2rem; border-radius: 8px; border-left: 4px solid #2e7d32;">
+                                <h5 style="margin: 0 0 0.5rem 0; font-weight: 600; color: #fff; font-size: 1.1rem;">2. Algorithms & Data Structures</h5>
+                                <p style="margin: 0; color: #aaa; font-size: 0.95rem; line-height: 1.5;">
+                                    Replaced naive client-side sorting with server-side MongoDB <code>$toDouble</code> query pipelines, limit-offset logic, and paginated metadata processing.
+                                </p>
+                            </div>
+                            <div style="background: rgba(255,255,255,0.05); padding: 1.2rem; border-radius: 8px; border-left: 4px solid #c62828;">
+                                <h5 style="margin: 0 0 0.5rem 0; font-weight: 600; color: #fff; font-size: 1.1rem;">3. Databases & Security</h5>
+                                <p style="margin: 0; color: #aaa; font-size: 0.95rem; line-height: 1.5;">
+                                    Designed automated Mongoose audit log schemas, compound query indexes, and strict JWT Express middleware for administrative access control.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Featured Capstone Project Details -->
         <section class="capstone-container">
             <div class="capstone-card">
                 <img src="./assets/images/travlr-admin.png" alt="Travlr Admin Capstone" class="capstone-img">
                 <div class="capstone-body">
                     <div>
-                        <span class="capstone-tag">Featured Capstone</span>
+                        <span class="capstone-tag">Featured Capstone Artifact</span>
                         <h2 class="capstone-title">Travlr Getaways Administrative Portal</h2>
                         <p class="capstone-desc">
                             An enterprise administrative portal refactored with modern reactive architecture. Includes real-time audit logs, server-side data aggregation pipelines, dynamic UI state handling, and secure RBAC access controls.
@@ -198,5 +251,4 @@
             </div>
         </footer>
     </body>
-
 </html>
